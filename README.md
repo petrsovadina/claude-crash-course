@@ -1,32 +1,32 @@
-# Claude Crash Course Templates
+# Claude Crash Course Šablony
 
-Welcome to the **Claude Crash Course** repository! This repo contains three essential templates that will help you rapidly build and deploy AI-driven applications using Claude. These templates are part of a structured workflow designed to enhance your development process and help you code 10x faster.
+Vítejte v úložišti **Claude Crash Course**! Toto úložiště obsahuje tři základní šablony, které vám pomohou rychle vytvořit a nasadit aplikace s umělou inteligencí pomocí aplikace Claude. Tyto šablony jsou součástí strukturovaného pracovního postupu navrženého tak, aby vylepšil váš vývojový proces a pomohl vám kódovat 10x rychleji.
 
-## Overview
+## Přehled
 
-In this crash course, you will learn how to efficiently build AI applications by leveraging Claude's power. The templates provided here are designed to guide you through the entire development process, from generating a master plan for your project to fully implementing production-ready code.
+V tomto rychlokurzu se naučíte, jak efektivně vytvářet aplikace s umělou inteligencí s využitím výkonu aplikace Claude. Zde uvedené šablony jsou navrženy tak, aby vás provedly celým procesem vývoje, od vytvoření hlavního plánu projektu až po úplnou implementaci kódu připraveného k produkci.
 
-### Templates Included:
+### Šablony v balení:
 
-1. **Generate Master Plan (`1_generate_master_plan.txt`)**:
+1. **Generování hlavního plánu (`1_generate_master_plan.txt`)**:
 
-   - This template helps you define the overall structure and purpose of your app. By answering key questions, you'll generate a `masterplan.md` file, which serves as a blueprint for the entire project.
+   - Tato šablona vám pomůže definovat celkovou strukturu a účel vaší aplikace. Odpovědí na klíčové otázky vygenerujete soubor `masterplan.md`, který slouží jako plán celého projektu.
 
-2. **Stub Out Project (`2_stub_out_project.txt`)**:
+2. **Výstupní projekt (`2_stub_out_project.txt`)**:
 
-   - After defining your app’s structure, use this template to create a skeleton of your project. This phase focuses on setting up the basic architecture and stubbing out essential components, leaving placeholders for further development.
+   - Po definování struktury aplikace použijte tuto šablonu k vytvoření kostry projektu. Tato fáze se zaměřuje na nastavení základní architektury a vyřazení základních komponent, přičemž ponechává zástupné symboly pro další vývoj.
 
-3. **Fully Code Out Implementation (`3_fully_code_out_implementation.txt`)**:
-   - This template will guide you in transforming the stubbed-out project from Phase 2 into fully functional, production-ready code. You'll focus on implementing core features, building out your app, and making sure everything is well-structured and scalable.
+3. **Plně nakódovaná implementace (`3_fully_code_out_implementation.txt`)**:
+   - Tato šablona vás provede transformací stubbed-out projektu z fáze 2 do plně funkčního kódu připraveného k produkci. Zaměříte se na implementaci základních funkcí, vybudování aplikace a ujistíte se, že je vše dobře strukturované a škálovatelné.
 
-## Why Use Claude?
+## Proč používat Claude?
 
-Claude enables you to build apps faster than ever before by providing powerful tools for project management, real-time code generation, and streamlined workflows. Whether you are building a Next.js app or a Python project, Claude can help you automate complex tasks and manage your project's knowledge base efficiently.
+Claude vám umožní vytvářet aplikace rychleji než kdykoli předtím, protože poskytuje výkonné nástroje pro správu projektů, generování kódu v reálném čase a zjednodušené pracovní postupy. Ať už vytváříte aplikaci Next.js nebo projekt v jazyce Python, Claude vám pomůže automatizovat složité úlohy a efektivně spravovat znalostní bázi projektu.
 
-## License
+## Licence
 
-This project is licensed under the MIT License. Feel free to use, modify, and distribute as needed.
+Tento projekt je licencován pod licencí MIT. Neváhejte jej používat, upravovat a šířit podle potřeby.
 
-## Contributions
+## Příspěvky
 
-We welcome contributions to improve these templates and the workflow. If you have suggestions, feel free to open a pull request or submit an issue.
+Vítáme příspěvky, které by tyto šablony a pracovní postup vylepšily. Pokud máte návrhy, neváhejte otevřít požadavek na stažení nebo odeslat problém.
