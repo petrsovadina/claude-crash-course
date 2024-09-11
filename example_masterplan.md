@@ -1,83 +1,83 @@
-# AI-Powered Content Generation App Masterplan
+# Hlavní plán aplikace pro generování obsahu poháněné umělou inteligencí
 
-## App Overview and Objectives
+## Přehled a cíle aplikace
 
-This Next.js application aims to automate the workflow of content creation by leveraging AI to process video clips, generate summaries, and create social media posts. The primary objectives are:
+Cílem této aplikace Next.js je automatizovat pracovní postup tvorby obsahu využitím umělé inteligence ke zpracování videoklipů, generování shrnutí a vytváření příspěvků na sociálních sítích. Hlavními cíli jsou:
 
-1. Streamline the process of converting video content into written posts for various platforms
-2. Utilize AI for transcription and summarization of video clips
-3. Provide a user-friendly interface for managing the content generation process
+1. Zjednodušit proces převodu videoobsahu na psané příspěvky pro různé platformy.
+2. Využít AI k přepisu a shrnutí videoklipů.
+3. Poskytnout uživatelsky přívětivé rozhraní pro správu procesu vytváření obsahu
 
-## Target Audience
+## Cílová skupina
 
-- Content creators
-- Social media managers
-- Individuals looking to repurpose video content for multiple platforms
+- Tvůrci obsahu
+- Správci sociálních médií
+- Jednotlivci, kteří chtějí znovu použít video obsah pro více platforem
 
-## Core Features and Functionality
+## Základní vlastnosti a funkce
 
-1. Video Upload
+1. Nahrávání videa
 
-   - Upload multiple video clips
-   - Store uploaded videos using UploadThing
+   - Nahrávání více videoklipů
+   - Ukládání nahraných videí pomocí služby UploadThing
 
-2. AI Processing
+2. Zpracování umělé inteligence
 
-   - Transcribe videos using OpenAI's Whisper API
-   - Summarize transcriptions into a 2,000-word summary using GPT-4
+   - Přepisujte videa pomocí rozhraní API Whisper od OpenAI
+   - Shrňte přepisy do souhrnu o 2 000 slovech pomocí GPT-4
 
-3. Prompt Configuration
+3. Konfigurace výzvy
 
-   - Create and edit prompts for different social media platforms
+   - Vytváření a úprava výzev pro různé platformy sociálních médií
 
-4. Content Generation
+4. Generování obsahu
 
-   - Generate platform-specific posts based on video summaries and configured prompts
+   - Generování příspěvků pro konkrétní platformu na základě shrnutí videa a nakonfigurovaných výzev.
 
-5. Results Management
+5. Správa výsledků
 
-   - View and copy generated content for each platform
+   - Zobrazení a kopírování vygenerovaného obsahu pro každou platformu
 
-6. Job Queue System
-   - Manage and track the status of processing jobs
+6. Systém fronty úloh
+   - Správa a sledování stavu zpracování úloh
 
-## High-Level Technical Stack
+## Technický zásobník na vysoké úrovni
 
 1. Frontend:
 
-   - Next.js with ShadCN UI components
-   - Clerk for authentication
+   - UI: 1. frontend: Next.js s komponentami uživatelského rozhraní ShadCN
+   - Úředník pro ověřování
 
 2. Backend:
 
-   - Next.js API routes for main application logic
-   - Flask backend for AI processing tasks
+   - Pro hlavní logiku aplikace jsou použity trasy API Next.js
+   - Backend Flask pro úlohy zpracování umělé inteligence
 
-3. Database:
+3. Databáze:
 
-   - PostgreSQL with Drizzle ORM
+   - Databáze: PostgreSQL s Drizzle ORM
 
-4. File Storage:
+4. Ukládání souborů:
 
-   - UploadThing for video storage
+   - UploadThing pro ukládání videa
 
-5. AI Services:
-   - OpenAI APIs (Whisper for transcription, GPT-4 for summarization and content generation)
+5. Služby umělé inteligence:
+   - (Whisper pro přepis, GPT-4 pro sumarizaci a generování obsahu).
 
-## Conceptual Data Model
+## Konceptuální datový model
 
-1. User
-
-   - ID
-   - Name
-   - Email
-
-2. Project
+1. Uživatel
 
    - ID
-   - Title
-   - CreationDate
-   - Status
+   - Název
+   - E-mail
+
+2. Projekt
+
+   - ID
+   - Název
+   - Datum vytvoření
+   - Stav
 
 3. VideoClip
 
@@ -86,111 +86,111 @@ This Next.js application aims to automate the workflow of content creation by le
    - FileName
    - UploadThingURL
 
-4. Transcription
+4. Přepis
 
    - ID
    - VideoClipID
-   - Content
+   - Obsah
 
-5. Summary
-
-   - ID
-   - ProjectID
-   - Content
-
-6. Prompt
+5. Shrnutí
 
    - ID
    - ProjectID
-   - Platform
-   - Content
+   - Obsah
+
+6. Výzva
+
+   - ID
+   - ProjectID
+   - Platforma
+   - Obsah
 
 7. GeneratedPost
 
    - ID
    - ProjectID
-   - Platform
-   - Content
+   - Platforma
+   - Obsah
 
-8. Job
+8. Práce
    - ID
-   - ProjectID
-   - Type (Transcription, Summarization, PostGeneration)
-   - Status (Ready, Running, Completed, Failed)
+   - ID projektu
+   - Typ (přepis, sumarizace, postgenerace)
+   - Stav (Připraveno, Probíhá, Dokončeno, Nepovedlo se)
    - CreationDate
 
-## User Interface Design Principles
+## Zásady návrhu uživatelského rozhraní
 
-1. Clean and intuitive design using ShadCN components
-2. Clear separation of different stages (Upload, Config, Run, Result)
-3. Easy-to-use drag-and-drop interface for video uploads
-4. Simple text areas for prompt configuration
-5. Clear display of job status and progress
-6. Easy-to-copy generated content in the Results stage
+1. Čistý a intuitivní design s použitím komponent ShadCN
+2. Jasné oddělení jednotlivých fází (Nahrát, Konfigurace, Spustit, Výsledek)
+3. Snadno použitelné rozhraní drag-and-drop pro nahrávání videa
+4. Jednoduché textové oblasti pro pohotovou konfiguraci
+5. Přehledné zobrazení stavu a průběhu úlohy
+6. Snadno kopírovatelný generovaný obsah ve fázi výsledků
 
-## Security Considerations
+## Bezpečnostní aspekty
 
-1. User authentication and authorization using Clerk
-2. Secure handling of API keys for OpenAI and UploadThing
-3. Proper data sanitization and validation for user inputs
-4. Secure storage of sensitive information (e.g., transcriptions, summaries)
+1. Ověřování a autorizace uživatelů pomocí Clerk
+2. Bezpečné zpracování klíčů API pro OpenAI a UploadThing
+3. Správná sanitizace a validace dat pro uživatelské vstupy
+4. Bezpečné ukládání citlivých informací (např. přepisů, souhrnů).
 
-## Development Phases
+## Fáze vývoje
 
-1. Phase 1: Project Setup and Basic Infrastructure
+1. Fáze 1: Nastavení projektu a základní infrastruktura
 
-   - Set up Next.js project using app directory with ShadCN
-   - Implement Clerk authentication
-   - Set up PostgreSQL database and Drizzle ORM
-   - Implement basic project management (create, list, view)
+   - Nastavení projektu Next.js pomocí adresáře aplikace s ShadCN
+   - Implementujte ověřování úředníků
+   - Nastavení databáze PostgreSQL a ORM Drizzle
+   - Implementace základní správy projektu (vytvoření, seznam, zobrazení)
 
-2. Phase 2: Video Upload and Storage
+2. Fáze 2: Nahrávání a ukládání videí
 
-   - Integrate UploadThing for video storage
-   - Implement video upload functionality
-   - Create video clip management interface
+   - Integrace služby UploadThing pro ukládání videí
+   - Implementace funkce nahrávání videí
+   - Vytvoření rozhraní pro správu videoklipů
 
-3. Phase 3: AI Processing Integration
+3. Fáze 3: Integrace zpracování umělé inteligence
 
-   - Set up Flask backend for AI tasks
-   - Integrate OpenAI APIs (Whisper and GPT-4)
-   - Implement transcription and summarization logic
+   - Nastavení backendu Flask pro úlohy AI
+   - Integrace rozhraní API OpenAI (Whisper a GPT-4)
+   - Implementujte logiku přepisu a shrnutí
 
-4. Phase 4: Prompt Configuration and Content Generation
+4. Fáze 4: Konfigurace výzvy a generování obsahu
 
-   - Create prompt configuration interface
-   - Implement content generation logic using GPT-4
-   - Develop job queue system for processing runs
+   - Vytvoření konfiguračního rozhraní výzvy
+   - Implementujte logiku generování obsahu pomocí GPT-4
+   - Vyvinout systém fronty úloh pro zpracování běhů
 
-5. Phase 5: Results Management and UI Refinement
+5. Fáze 5: Správa výsledků a zdokonalení uživatelského rozhraní
 
-   - Create results display interface
-   - Implement copy-to-clipboard functionality
-   - Refine overall user interface and experience
+   - Vytvoření rozhraní pro zobrazení výsledků
+   - Implementace funkce kopírování na tabuli
+   - Zdokonalení celkového uživatelského rozhraní a prostředí
 
-6. Phase 6: Testing, Optimization, and Deployment
-   - Conduct thorough testing of all features
-   - Optimize performance and resource usage
-   - Prepare for deployment and launch
+6. Fáze 6: Testování, optimalizace a nasazení
+   - Proveďte důkladné testování všech funkcí
+   - Optimalizujte výkon a využití zdrojů
+   - Připravte se na nasazení a spuštění
 
-## Potential Challenges and Solutions
+## Potenciální výzvy a řešení
 
-1. Challenge: Handling large video files
-   Solution: Implement chunked uploads and processing
+1. Výzva: Zpracování velkých video souborů
+   Řešení: Zavedení chunked uploadu a zpracování
 
-2. Challenge: Managing long-running AI tasks
-   Solution: Implement robust job queue system with status updates
+2. Úkol: Vytvoření datových souborů: Řešení: Správa dlouhotrvajících úloh umělé inteligence
+   Řešení: Implementace robustního systému fronty úloh s aktualizacemi stavu
 
-3. Challenge: Ensuring accuracy of AI-generated content
-   Solution: Implement review and editing features for generated content
+3. Výzva: Zajištění přesnosti obsahu generovaného umělou inteligencí
+   Řešení: Implementace funkcí pro kontrolu a úpravy generovaného obsahu
 
-4. Challenge: Scalability of the system
-   Solution: Design with scalability in mind, consider serverless architecture for AI processing
+4. Výzva: Škálovatelnost systému
+   Řešení: Zvažte architekturu bez serveru pro zpracování umělé inteligence.
 
-## Future Expansion Possibilities
+## Možnosti budoucího rozšíření
 
-1. Direct integration with social media platforms for posting
-2. Support for additional content types (e.g., audio, images)
-3. Advanced analytics and performance tracking for generated content
-4. Collaborative features for team-based content creation
-5. Custom AI model fine-tuning for improved summarization and content generation
+1. Přímá integrace s platformami sociálních médií pro zveřejňování příspěvků
+2. Podpora dalších typů obsahu (např. zvuk, obrázky)
+3. Pokročilá analytika a sledování výkonu pro generovaný obsah
+4. Kolaborativní funkce pro týmovou tvorbu obsahu
+5. Vlastní vyladění modelu umělé inteligence pro lepší sumarizaci
