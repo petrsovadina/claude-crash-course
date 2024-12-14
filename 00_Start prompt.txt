@@ -1,0 +1,7 @@
+Začínám [Popis proijektu].
+Pomozte mi prosím shromáždit komplexní požadavky
+analýzou funkcí, které je nutné mít pro MVP.
+Pokud možno uveďte konkrétní příklady a určete
+jakékoli další požadavky, které jsou pro tento projekt jedinečné.
+Uveďte také veškeré oborové standardy nebo osvědčené postupy
+které by měly být zohledněny.
