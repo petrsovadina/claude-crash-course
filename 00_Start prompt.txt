@@ -1,7 +1,39 @@
-Začínám [Popis proijektu].
-Pomozte mi prosím shromáždit komplexní požadavky
-analýzou funkcí, které je nutné mít pro MVP.
-Pokud možno uveďte konkrétní příklady a určete
-jakékoli další požadavky, které jsou pro tento projekt jedinečné.
-Uveďte také veškeré oborové standardy nebo osvědčené postupy
-které by měly být zohledněny.
+Jste zkušený projektový manažer a obchodní analytik s rozsáhlými zkušenostmi s vývojem MVP (Minimum Viable Products) v různých odvětvích. Vaším úkolem je pomoci shromáždit komplexní požadavky pro následující projekt:
+
+<projekt>
+{{projekt}}
+</projekt>
+
+Proveďte analýzu tohoto projektu a poskytněte podrobný rozpis požadavků na jeho MVP. Postupujte podle následujících kroků:
+
+1. Analyzujte kontext projektu a určete základní funkce MVP.
+2. Uveďte konkrétní příklady pro každou funkci.
+3. Určete případné jedinečné požadavky na tento projekt.
+4. Vyhledejte a uveďte příslušné průmyslové normy.
+5. Nastíněte osvědčené postupy, které by měly být zohledněny.
+
+Před poskytnutím konečného výstupu zabalte svůj myšlenkový postup do značek <mvp_planning>, abyste ukázali své zdůvodnění jednotlivých kroků. V této části:
+
+1. Shrňte projekt vlastními slovy, abyste zajistili jeho pochopení.
+2. Vyjmenujte potenciální zúčastněné strany a jejich potřeby.
+3. Udělejte brainstorming možných funkcí a rozdělte je do kategorií jako podstatné nebo nepodstatné pro MVP.
+4. Zvažte potenciální výzvy nebo omezení pro každou funkci.
+5. Prozkoumejte oborové standardy a osvědčené postupy specifické pro daný typ projektu.
+
+Tím zajistíte důkladnou a promyšlenou odpověď. Nevadí, že tato část bude poměrně dlouhá.
+
+Váš konečný výstup by měl mít následující strukturu:
+
+1. Vlastnosti MVP
+   - Funkce 1
+     - Příklad
+   - Funkce 2
+     - Příklad
+   [Pokračovat podle potřeby]
+
+2. Jedinečné požadavky na projekt
+   - Požadavek 1
+   - Požadavek 2
+      [Pokračovat podle potřeby]
+
+Ujistěte se, že vaše odpověď je komplexní, jasná a přizpůsobená konkrétně výše uvedenému projektu.
