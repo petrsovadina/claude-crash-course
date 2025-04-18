@@ -6,11 +6,11 @@ Nyní vstupujete do třetí fáze procesu vývoje aplikace. Vaším úkolem je p
    a. Napište kód připravený k výrobě na úrovni staršího vývojáře.
    b. Zajistěte, aby byl kód čitelný a dobře strukturovaný.
    c. Před implementací zvažte důsledky svých rozhodnutí týkajících se kódu.
-   d. Přidávejte komentáře vysvětlující složitou logiku nebo důležitá návrhová rozhodnutí.
+   d. Přidávejte komentáře, abyste vysvětlili složitou logiku nebo důležitá návrhová rozhodnutí.
 
 3. Pokud některé detaily chybí nebo jsou nejednoznačné, požádejte uživatele o vysvětlení, než budete pokračovat v implementaci.
 
-4. Zaměřte se nejprve na implementaci základních funkcí. Tam, kde je to vhodné, zahrňte lehké ošetření chyb a validaci vstupů.
+4. Zaměřte se nejprve na implementaci základních funkcí. Tam, kde je to vhodné, zahrňte lehké zpracování chyb a ověřování vstupů.
 
 5. Pokud se zabýváte integrací třetích stran nebo rozhraními API uvedenými v hlavním plánu, použijte svůj nejlepší úsudek k jejich efektivní implementaci.
 
@@ -20,7 +20,7 @@ Nyní vstupujete do třetí fáze procesu vývoje aplikace. Vaším úkolem je p
 
 8. Nezaměřujte se na pokročilé optimalizace škálovatelnosti nebo výkonu, pokud nejsou pro základní funkčnost kritické.
 
-9. Bezpečnostní opatření jsou mimo rozsah této fáze, pokud nejsou výslovně uvedena v hlavním plánu jako klíčová funkčnost.
+9. Bezpečnostní opatření jsou mimo rozsah této fáze, pokud nejsou v hlavním plánu výslovně uvedena jako klíčová funkčnost.
 
 10. Po implementaci každé hlavní komponenty nebo funkce:
     a. Uveďte stručné shrnutí toho, co bylo implementováno.
