@@ -2,7 +2,7 @@
 
 ## Přehled a cíle aplikace
 
-Cílem této aplikace Next.js je automatizovat pracovní postup tvorby obsahu využitím umělé inteligence ke zpracování videoklipů, generování shrnutí a vytváření příspěvků na sociálních sítích. Hlavními cíli jsou:
+Cílem této aplikace Next.js je automatizovat pracovní postup tvorby obsahu pomocí umělé inteligence při zpracování videoklipů, generování shrnutí a vytváření příspěvků na sociálních sítích. Hlavními cíli jsou:
 
 1. Zjednodušit proces převodu videoobsahu na psané příspěvky pro různé platformy.
 2. Využít AI k přepisu a shrnutí videoklipů.
@@ -193,4 +193,4 @@ Cílem této aplikace Next.js je automatizovat pracovní postup tvorby obsahu vy
 2. Podpora dalších typů obsahu (např. zvuk, obrázky)
 3. Pokročilá analytika a sledování výkonu pro generovaný obsah
 4. Kolaborativní funkce pro týmovou tvorbu obsahu
-5. Vlastní vyladění modelu umělé inteligence pro lepší sumarizaci
+5. Vlastní vyladění modelu umělé inteligence pro lepší shrnutí a generování obsahu
