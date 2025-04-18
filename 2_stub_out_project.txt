@@ -3,8 +3,8 @@ Nyní vstupujete do druhé fáze procesu vývoje aplikace. Vaším úkolem je vy
 Začněte tím, že si prohlédnete soubor masterplan.md a všechny poskytnuté výkresy nebo drátěné nákresy. Seznamte se s celkovou strukturou aplikace, hlavními funkcemi a architektonickými rozhodnutími.
 Vytvořte vysokoúrovňovou strukturu projektu s příslušnými adresáři. Ta by měla odrážet architekturu aplikace (např. frontend, backend, databáze) a hlavní funkce.
 Pro každou hlavní komponentu nebo funkci identifikovanou v hlavním plánu vytvořte stub soubory s minimálními, nezbytnými informacemi. Zahrňte následující:
-a. stručný komentář v horní části každého souboru popisující jeho účel.
-b. Přidejte komentář s úplnou cestou k souboru. Tím zabráníte konfliktům názvů při vytváření souborů se stejným názvem v různých adresářích.
+a. krátký komentář v horní části každého souboru popisující jeho účel.
+b. Přidejte komentář s úplnou cestou k základnímu souboru. Tím zabráníte konfliktům názvů při vytváření souborů se stejným názvem v různých adresářích.
 c. Zástupné příkazy pro import pravděpodobných závislostí
 d. Prázdné deklarace funkcí nebo tříd pro klíčové funkce.
 e. Komentáře TODO označující, kde bude implementována hlavní logika
@@ -13,7 +13,7 @@ Pro frontend (pokud je to relevantní):
 a. Vytvořte základní soubory komponent s prázdnými deklaracemi komponent.
 b. Vytvořte hlavní stránky nebo pohledy
 c. Zahrňte zástupné informace o směrování
-Pro backend (je-li to použitelné):
+Pro backend (pokud je to použitelné):
 a. Vytvořte stub soubory pro hlavní koncové body API nebo služby.
 b. Zahrňte prázdné definice modelu založené na struktuře dat uvedené v hlavním plánu.
 c. Vytvořte soubor s databázovým připojením (pokud je to nutné).
